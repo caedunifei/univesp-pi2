@@ -1,0 +1,8 @@
+﻿namespace univesp_pi2.Models
+{
+    public class LoginViewModel
+    {
+        public string User { get; set; }
+        public string Password { get; set; }
+    }
+}
