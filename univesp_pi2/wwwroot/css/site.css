@@ -29,3 +29,35 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+
+/* Estilização personalizada para a tela do produto */
+
+.produto-detalhe-img {
+    max-width: 350px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.produto-detalhe-img:hover {
+    transform: scale(1.05);
+}
+
+.qtd-input {
+    width: 70px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
