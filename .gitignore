@@ -426,3 +426,25 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+
+# A linha abaixo é importante para o restore de pacotes do .NET 5+ e .NET Core
+.vs/obj/
+.vs/bin/
+
+# Cache e metadados do Visual Studio e VS Code
+*.sln.cache
+
+# Configurações de usuário
+*.csproj.user
+*.vcxproj.user
+*.vbproj.user
+
+# Arquivos de sistema operacional
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Arquivos de log e teste
+TestResults/
